@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta name="google-site-verification" content="JDr2slkARE7bWPtEXRrgzCeHOlz88EpKozBL0tSYcZs" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مقارنة شاملة ومحايدة بين هاتف Samsung Galaxy A56 ومنافسه الأسطوري iPhone 11 من حيث الشاشة، الكاميرا، المعالج، والبطارية. اكتشف الأفضل لك!">
+    <title>Samsung Youssef Joseph - مقارنة بين Samsung A56 و iPhone 11</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #000000, #333333);
+            margin: 0;
+            padding: 20px;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #1a1a1a, #4a4a4a);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            animation: fadeInSlideDown 2s ease-out;
+        }
+        @keyframes fadeInSlideDown {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .comparison {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .comparison.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .phone {
+            background: linear-gradient(135deg, #2a2a2a, #5a5a5a);
+            border-radius: 15px;
+            padding: 25px;
+            width: 45%;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .phone.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .phone:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+        }
+        .phone h2 {
+            color: #00d4ff;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out 0.2s, transform 0.8s ease-out 0.2s;
+        }
+        .phone h2.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .phone img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin: 0 auto 15px;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.3s ease;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out 0.4s, transform 0.8s ease-out 0.4s;
+        }
+        .phone img.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .phone img:hover {
+            transform: scale(1.05) rotate(2deg);
+            filter: brightness(1.1) drop-shadow(0 10px 20px rgba(0,0,0,0.7));
+        }
+        .phone p {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out 0.6s, transform 0.8s ease-out 0.6s;
+        }
+        .phone p.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background: rgba(0,0,0,0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out 0.8s, transform 0.8s ease-out 0.8s;
+        }
+        table.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        th, td {
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 12px;
+            text-align: center;
+            color: #ffffff;
+            transition: background 0.3s ease;
+        }
+        th {
+            background: linear-gradient(135deg, #444444, #666666);
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background: rgba(255,255,255,0.05);
+        }
+        tr:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #cccccc;
+            font-size: 0.9em;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        footer.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Samsung Youssef Joseph</h1>
+        <p>مقارنة شاملة وأنيقة بين Samsung Galaxy A56 و iPhone 11</p>
+    </header>
+    
+    <div class="comparison">
+        <div class="phone">
+            <h2>Samsung Galaxy A56</h2>
+            <img id="samsung-img" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556elbgins/gallery/in-galaxy-a55-5g-sm-a556-sm-a556elbgins-thumb-539573647?$172_172_PNG$" alt="Samsung Galaxy A56" style="background: transparent;">
+            <p>هاتف ذكي حديث من سامسونج مع ميزات متقدمة مثل شاشة كبيرة وبطارية قوية، مثالي للاستخدام اليومي والتصوير.</p>
+            <table>
+                <tr><th>الميزة</th><th>التفاصيل</th></tr>
+                <tr><td>الشاشة</td><td>6.7 بوصة Super AMOLED، دقة 1080x2400</td></tr>
+                <tr><td>المعالج</td><td>Exynos 1380 (8 نواة)</td></tr>
+                <tr><td>الكاميرا</td><td>50 ميجابيكسل رئيسية + 12 ميجابيكسل واسعة + 5 ميجابيكسل ماكرو</td></tr>
+                <tr><td>البطارية</td><td>5000 مللي أمبير، شحن سريع 25 واط</td></tr>
+                <tr><td>التخزين</td><td>128 جيجابايت / 256 جيجابايت، قابل للتوسع بـ microSD</td></tr>
+                <tr><td>نظام التشغيل</td><td>Android 14 مع One UI 6</td></tr>
+                <tr><td>الوزن</td><td>213 جرام</td></tr>
+                <tr><td>السعر التقريبي</td><td>حوالي 400 دولار</td></tr>
+            </table>
+        </div>
+        
+        <div class="phone">
+            <h2>iPhone 11</h2>
+            <img id="iphone-img" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=png&qlt=80&.v=1567022175704" alt="iPhone 11" style="background: transparent;">
+            <p>هاتف ذكي كلاسيكي من أبل مع أداء موثوق وكاميرا ممتازة، يدعم التحديثات الطويلة الأمد.</p>
+            <table>
+                <tr><th>الميزة</th><th>التفاصيل</th></tr>
+                <tr><td>الشاشة</td><td>6.1 بوصة Liquid Retina LCD، دقة 828x1792</td></tr>
+                <tr><td>المعالج</td><td>A13 Bionic (6 نواة)</td></tr>
+                <tr><td>الكاميرا</td><td>12 ميجابيكسل رئيسية + 12 ميجابيكسل واسعة</td></tr>
+                <tr><td>البطارية</td><td>3110 مللي أمبير، شحن سريع 18 واط</td></tr>
+                <tr><td>التخزين</td><td>64 جيجابايت / 128 جيجابايت / 256 جيجابايت (غير قابل للتوسع)</td></tr>
+                <tr><td>نظام التشغيل</td><td>iOS 17 (قابل للتحديث)</td></tr>
+                <tr><td>الوزن</td><td>194 جرام</td></tr>
+                <tr><td>السعر التقريبي</td><td>حوالي 500 دولار (مستعمل)</td></tr>
+            </table>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Samsung Youssef Joseph. جميع الحقوق محفوظة. تصميم احترافي مع أنيميشن متقدمة وتفاعلية.</p>
+    </footer>
+
+    <script>
+        // Intersection Observer للكشف عن العناصر عند التمرير
+        const observerOptions = {
+            threshold: 0.1, // يظهر عندما 10% من العنصر في الرؤية
+            rootMargin: '0px 0px -50px 0px' // يبدأ قليلاً قبل الدخول الكامل
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // مراقبة العناصر
+        const elementsToAnimate = document.querySelectorAll('.comparison, .phone, .phone h2, .phone img, .phone p, table, footer');
+        elementsToAnimate.forEach(el => observer.observe(el));
+
+        // تأثير parallax للخلفية
+        window.addEventListener('scroll', function() {
+            const scrollY = window.scrollY;
+            document.body.style.backgroundPosition = `0% ${scrollY * 0.5}px`;
+            
+            // تغيير حجم الصور بناءً على التمرير
+            const samsungImg = document.getElementById('samsung-img');
+            const iphoneImg = document.getElementById('iphone-img');
+            const scale = Math.min(1.15, Math.max(0.85, 1 + scrollY / 1500));
+            samsungImg.style.transform = `scale(${scale})`;
+            iphoneImg.style.transform = `scale(${scale})`;
+        });
+    </script>
+</body>
+</html>
